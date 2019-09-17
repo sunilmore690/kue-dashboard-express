@@ -1,0 +1,28 @@
+{
+  "type":"module",
+  "name": "kue-dashboard-express",
+  "version": "1.4.8",
+  "description": "Kue Dashboard for Express",
+  "main": "./lib/mountKueDashboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kue",
+    "ui",
+    "kue",
+    "dashboard"
+  ],
+  "author": "Sunil More",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^15.1.1",
+    "serve-static": "^1.14.1",
+    "yargs": "^13.3.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "kue": "^0.11.6"
+  }
+}
