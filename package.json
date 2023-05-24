@@ -1,7 +1,6 @@
 {
-  "type":"module",
   "name": "kue-dashboard-express",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Kue Dashboard for Express",
   "main": "./lib/mountKueDashboard.js",
   "scripts": {
